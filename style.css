@@ -14,6 +14,7 @@
     width: 75%;
     margin: 0 auto;
 }
+
 .btn{
     /* background-color: #rgba(247, 233, 63, 1)#rgba(251, 9, 180, 1)rgba(145, 0, 248, 1); */
     width: 145px;
@@ -34,7 +35,7 @@ body {
   background: rgba(26, 11, 46, 1);
 }
 .header {
-    max-width: 75%;
+    max-width: 1600px;
     margin: 0 auto;
 }
 .navbar{
@@ -228,9 +229,116 @@ body {
     align-items: flex-start;
     gap: 16px;
 }
+/* feature section  */
+
+.feature h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.feature-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 30px;
+}
+.feature-yt{
+    border-radius:15px ;
+   
+    background: rgba(37, 13, 68, 1);
+    max-width: 380px;
+}
+.feature-title{
+    padding: 24px;
+}
+.feature-title h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+
+}
+.feature-title p{
+    font-size: 16px;
+    opacity: 0.6;
+}
+iframe{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
 
 
 
+
+/* meet section  */
+.meet-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.meet-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.meet-container{
+    background: rgba(37, 13, 68, 1);
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.meet-description h3{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.meet-description p{
+    font-size: 1rem;
+    opacity: 0.6;
+    margin: 16px 0;
+}
+.social-container{
+    display: flex;
+    gap: 8px;
+
+}
+.social{
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* footer section  */
+footer{
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-container{
+    padding: 120px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 /* responsive media  */
