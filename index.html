@@ -10,62 +10,50 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <section class="header">
-            <nav class="navbar">
+    
+        
+    <nav id="navbar" class="main-container">
            
-            <div>
-                <img src="assets/TechWave.png" alt="">
-            </div>
-            <div >
-                <ul class="menu">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Episodes</a></li>
-                    <li><a href="">Host</a></li>
-                </ul>
-
-            </div>
-            <div>
-                <button class="btn">
-                    <a href="">Subscribe</a>
-                </button>
-            </div>
-
-        </nav>
-        </section>
-        <section >
-            <header class="banner ">
-                <div class="banner-container">
+        <div>
+            <img src="assets/TechWave.png" alt="">
+        </div>
+        <input  id="menu-toggle" type="checkbox">
+        <label class="hamburger-menu" for="menu-toggle"><img  src="./assets/hamburger-menu.png" alt=""></label>
+        <div id="nav-content">
+            <ul class="menu">
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
+            </ul>
+            <button class="nav-btn btn">
+                <a href="">Subscribe <img src="./assets/ArrowRight.png" alt=""></a>
+            </button>
+        </div>
+            
+    </nav>
+        
+        
+            <header class="banner">
                     
                     <div class="banner-style">
-                        
-                       <div class="banner-circle">
-                         <img src="assets/hero-circle.png" alt="">
-                       </div>
-                       <div class="mic">
-                         <img src="assets/microphone.png" alt="">
-                       </div>
-                       <div class="new">
-                        <p>New</p>
-                       </div>
+                        <span class="badge">New</span>
+                        <img class="circle" src="assets/hero-circle.png" alt="">
+                        <img class="mic" src="assets/microphone.png" alt="">
+                       
                     </div> 
                     
                     <div class="banner-title">
                         <h3>TechWave</h3>
-                        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                        <p class="banner-description">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                         <div class="banner-button">
-                            <button class="btn"><a href="">Listen on Spotify</a></button>
-                            <button class="btn-1">Subscribe</button>
+                            <button id="btnone" class="btn"><a href=""><img src="./assets/spotify.png" alt="">Listen on Spotify</a></button>
+                            <button id="btn1" class="btn"><a href=""><img src="./assets/message.png" alt="">Subscribe</a></button>
                         </div>
                         
                     </div>
-                </div>
 
             </header>
 
-
-        </section>
-        </header>
         <main>
         <section id="about" class="size">
             <div class="about-container">
@@ -127,7 +115,7 @@
             </div>
         </section>
         <section class="feature size">
-            <h1>Featured Episodes</h1>
+            <h1 class="feature-heading">Featured Episodes</h1>
             <div class="feature-container">
                 <div class="feature-yt">
                     <div class="video">
@@ -204,10 +192,10 @@
         </section>
     </main>
     <footer class="footer-container header">
-        <div class="footer.logo">
+        <div class="footer-logo">
             <img src="./assets/TechWave (1).png" alt="">
         </div>
-        <ul>
+        <ul class="footer-menu">
             <li><a href=""><img src="./assets/spotify.png" alt="">Spotify</a></li>
             <li><a href=""><img src="./assets/apple-podcast.png" alt="">Apple Podcasts</a></li>
             <li><a href=""><img src="./assets/youtube-podcast.png" alt="">YouTube</a></li>
